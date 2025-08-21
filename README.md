@@ -1,23 +1,17 @@
-[![Fork Button](https://img.shields.io/github/forks/iemafzalhassan/full-stack_chatApp?style=social)](https://github.com/iemafzalhassan/full-stack_chatApp/fork)
+# Banter(Real-Time Chat Application)
 
 
-# Real-Time Chat Application
+A real-time chat application built with the MERN stack, Socket.io, Zustand, and TailwindCSS — fully containerized with Docker for easy deployment.
 
+🚀 Features
 
-Welcome to the **Full Stack Realtime Chat App** project, where we're building a scalable and secure real-time chat experience using the latest technologies. Whether you're a seasoned developer or a beginner, we invite you to contribute and be a part of this exciting journey!
-
-## Table of Contents
-
-
-* [Introduction](#introduction)
-* [Features](#features)
-* [Tech Stack](#tech-stack)
-* [Getting Started](#getting-started)
-* [Building the Backend](#building-the-backend)
-* [Running the Application](#running-the-application)
-* [Contributing](#contributing)
-* [Future Plans](#future-plans)
-* [License](#license)
+✅ Real-Time Messaging – Instant chat with Socket.io
+✅ User Authentication – JWT-based secure login & signup
+✅ Profile Management – Upload & update profile pictures
+✅ Online Status – Real-time presence indicator
+✅ Modern UI – Clean interface with Tailwind + DaisyUI themes
+✅ Message Control – Edit & delete messages (WhatsApp-style UX)
+✅ Responsive Design – Works across desktop and mobile
 
 ## 📝 Introduction
 
@@ -34,17 +28,14 @@ This project aims to provide a real-time chat experience that's both scalable an
 * **Online Status**: View real-time online/offline status of users 
 
 
-## 🛠️ Tech Stack
+🛠 Tech Stack
 
-
-* **Backend:** Node.js, Express, MongoDB, Socket.io
-* **Frontend:** React, TailwindCSS
-* **Containerization:** Docker
-* **Orchestration:** Kubernetes (planned)
-* **Web Server:** Nginx
-* **State Management:** Zustand
-* **Authentication:** JWT
-* **Styling Components:** DaisyUI
+Frontend: React, TailwindCSS, DaisyUI, Zustand
+Backend: Node.js, Express, MongoDB, Socket.io
+Authentication: JWT
+Containerization: Docker
+Web Server: Nginx
+Orchestration: Kubernetes (planned)
 
 
 ### 🔧 Prerequisites
@@ -210,18 +201,6 @@ This project is evolving, and here are a few exciting things on the horizon:
 * **Stay tuned for updates as we continue to improve and expand this project!**
 
 ---
-
-## 📚 Project Snapshots:
-
-![Settings](frontend/public/settings.png)
-
-![chat](frontend/public/chat.png)
-
-![logout](/frontend/public/logout.png)
-
-![Login](/frontend/public/login.png)
-
-
 
 ## 📜 License
 
