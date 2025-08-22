@@ -5,7 +5,7 @@ import path from "path";
 const envPath =
   process.env.NODE_ENV === "production"
     ? path.resolve(process.cwd(), "backend/.env")
-    : path.resolve(process.cwd(), ".env.development");
+    : path.resolve(process.cwd(), ".env");
 
 config({ path: envPath }); 
 
